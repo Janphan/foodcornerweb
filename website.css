@@ -18,7 +18,7 @@
 			text-align: center;
 			font-size: 5rem;
 		}
-		h1.b, h1.c {
+		.b, .c {
 			color: white;
 			text-align: center;
 		}
@@ -50,12 +50,22 @@
 		}
 		/*momo flex background */
 		.b {
-			background-image: url(images/momotoko\ outside\ -\ flex.jpeg);
+			background: url(images/Ahaan_tam_sang_outside.jpeg);
+			width: auto;
+			height: auto;
+			margin-bottom: 10px;
+			padding: 10px;
+			background-size: cover;
 		}
 		/*ahaan tam sang flex background */
 
 		.c {
-			background-image: url(images/Ahaan_tam_sang_outside.jpeg);
+			background: url(images/momotoko\ outside\ -\ flex.jpeg);
+			width: auto;
+			height: auto;
+			margin-bottom: 10px;
+			padding: 10px;
+			background-size: cover;
 		}
 		footer {
 			background-color: #333;
