@@ -18,6 +18,10 @@
 			text-align: center;
 			font-size: 5rem;
 		}
+		h1.b, h1.c {
+			color: white;
+			text-align: center;
+		}
 
 		section {
 			padding: 2rem;
@@ -97,7 +101,7 @@
 
 		/* edit img size */
 		img,
-		video {
+		video, b, c {
 			border-radius: 4px;
 			max-width: 800px;
 			height: auto;
@@ -186,7 +190,7 @@
 			}
 
 			img,
-			video {
+			video, b, c {
 				border-radius: 4px;
 				max-width: 100%;
 				height: auto;
