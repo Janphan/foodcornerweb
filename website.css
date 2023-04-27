@@ -19,12 +19,10 @@
 			font-size: 5rem;
 		}
 
-		.b,
-		.c,
-		.d {
+		.b, .c,	.d,	.e,	.f {
 			text-align: center;
 			border-radius: 4px;
-			max-width: 800px;
+			width: 960px;
 			height: auto;
 		}
 
@@ -62,26 +60,28 @@
 		}
 
 		/*momo flex background */
-		.b {			
-			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.6)), url(images/momotoko\ outside\ -\ flex.jpeg);
-			margin-bottom: 10px;
+		.b, .c,	.d,	.e,	.f {
+			margin-bottom: 20px;
 			padding: 10px;
 			background-size: cover;
+		}
+		.b {			
+			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.6)), url(images/momotoko\ outside\ -\ flex.jpeg);
 		}
 
 		/*ahaan tam sang flex background */
 
 		.c {
 			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.6)), url(images/Ahaan_tam_sang_outside.jpeg);
-			margin-bottom: 10px;
-			padding: 10px;
-			background-size: cover;
 		}
 		.d {
 			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.6)), url(images/Meilin_outside\ -\ background.jpeg);
-			margin-bottom: 10px;
-			padding: 10px;
-			background-size: cover;
+		}
+		.e {
+			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.6)), url(images/fantasiapelit\ toy\ store\ outside.jpeg);
+		}
+		.f {
+			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.6)), url(images/zhao_tea.png);
 		}
 
 		footer {

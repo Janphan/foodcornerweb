@@ -19,4 +19,10 @@ function myFunction() {
   function callRes3() {
     location.replace(" ")
   }
+  function callPlace1() {
+    location.replace("Fantasia Peli.html")
+  }
+  function callPlace2() {
+    location.replace(" ")
+  }
   
