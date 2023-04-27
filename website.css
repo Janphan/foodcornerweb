@@ -75,7 +75,7 @@
 		}
 
 		/* edit img size */
-		img {
+		img, video {
 			border-radius: 4px;
 			max-width: 800px;
 			height: auto;
@@ -163,7 +163,7 @@
 				font-size: 2.5rem;
 			}
 
-			img {
+			img, video {
 				border-radius: 4px;
 				max-width: 100%;
 				height: auto;
