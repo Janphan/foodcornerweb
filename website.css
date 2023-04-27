@@ -133,6 +133,8 @@
 			border-radius: 4px;
 			width: 800px;
 			height: auto;
+			padding-left: 1rem;
+			padding-right: 1rem;
 		}
 
 		img.vertical-img {
