@@ -21,13 +21,15 @@
 
 		.b,
 		.c {
-			color: white;
 			text-align: center;
-			/* and it leaves the flex-shrink property alone, which would be */
-			flex-shrink: inherit;
-			/* defaults to 1 */
-			margin-right: 15%;
-			margin-left: 15%;
+			border-radius: 4px;
+			max-width: 800px;
+			height: auto;
+		}
+
+		.blog-title {
+			color: white;
+			font-weight: bolder;
 		}
 
 		section {
@@ -47,6 +49,7 @@
 		.flex-container {
 			display: flex;
 			flex-direction: column;
+			align-items: center;
 		}
 
 		.flex-item-left {
@@ -58,10 +61,8 @@
 		}
 
 		/*momo flex background */
-		.b {
-			background: url(images/momotoko\ outside\ -\ flex.jpeg);
-			width: auto;
-			height: auto;
+		.b {			
+			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.6)), url(images/momotoko\ outside\ -\ flex.jpeg);
 			margin-bottom: 10px;
 			padding: 10px;
 			background-size: cover;
@@ -70,9 +71,7 @@
 		/*ahaan tam sang flex background */
 
 		.c {
-			background: url(images/Ahaan_tam_sang_outside.jpeg);
-			width: auto;
-			height: auto;
+			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.6)), url(images/Ahaan_tam_sang_outside.jpeg);
 			margin-bottom: 10px;
 			padding: 10px;
 			background-size: cover;
@@ -123,10 +122,9 @@
 		/* edit img size */
 		img,
 		video,
-		b,
-		c {
+		.b, .c {
 			border-radius: 4px;
-			max-width: 800px;
+			width: 800px;
 			height: auto;
 		}
 
@@ -214,10 +212,10 @@
 
 			img,
 			video,
-			b,
-			c {
+			.b,
+			.c {
 				border-radius: 4px;
-				max-width: 100%;
+				width: 100%;
 				height: auto;
 			}
 
