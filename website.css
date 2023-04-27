@@ -129,7 +129,7 @@
 		/* edit img size */
 		img,
 		video,
-		.b, .c, .d {
+		.b, .c, .d, .e, .f {
 			border-radius: 4px;
 			width: 800px;
 			height: auto;
