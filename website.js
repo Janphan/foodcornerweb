@@ -8,4 +8,3 @@ function myFunction() {
     }
   }
 
-// I love you
