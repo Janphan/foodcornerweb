@@ -15,3 +15,8 @@ function myFunction() {
   function callRes2() {
     location.replace("Ahaan Tam Sang.html")
   }
+
+  function callRes3() {
+    location.replace(" ")
+  }
+  
