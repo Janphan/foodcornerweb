@@ -44,7 +44,15 @@
 		.flex-item-right {
 			flex: 50%;
 		}
+		/*momo flex background */
+		.b {
+			background-image: url(images/momotoko\ outside.jpeg);
+		}
+		/*ahaan tam sang flex background */
 
+		.c {
+			background-image: url(images/Ahaan_tam_sang_outside.jpeg);
+		}
 		footer {
 			background-color: #333;
 			color: white;
