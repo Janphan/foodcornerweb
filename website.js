@@ -8,3 +8,10 @@ function myFunction() {
     }
   }
 
+  function callRes1() {
+    location.replace("momotoko.html")
+  }
+
+  function callRes2() {
+    location.replace("Ahaan Tam Sang.html")
+  }
