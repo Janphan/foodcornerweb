@@ -222,7 +222,10 @@
 			img,
 			video,
 			.b,
-			.c {
+			.c,
+			.d,
+			.e,
+			.f {
 				border-radius: 4px;
 				width: 100%;
 				height: auto;
