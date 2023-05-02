@@ -19,7 +19,11 @@
 			font-size: 5rem;
 		}
 
-		.b, .c,	.d,	.e,	.f {
+		.b,
+		.c,
+		.d,
+		.e,
+		.f {
 			text-align: center;
 			border-radius: 4px;
 			width: 960px;
@@ -60,34 +64,43 @@
 		}
 
 		/*momo flex background */
-		.b, .c,	.d,	.e,	.f {
+		.b,
+		.c,
+		.d,
+		.e,
+		.f {
 			margin-bottom: 20px;
 			padding: 10px;
 			background-size: cover;
 		}
-		.b {			
-			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.5)), url(images/momotoko\ outside\ -\ flex.jpeg);
+
+		.b {
+			background: linear-gradient(rgb(72, 0, 72, 0.6), rgba(171, 3, 183, 0.5)), url(images/momotoko\ outside\ -\ flex.jpeg);
 		}
 
 		/*ahaan tam sang flex background */
 
 		.c {
-			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.5)), url(images/Ahaan_tam_sang_outside.jpeg);
+			background: linear-gradient(rgb(72, 0, 72, 0.6), rgba(171, 3, 183, 0.5)), url(images/Ahaan_tam_sang_outside.jpeg);
 		}
+
 		.d {
-			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.5)), url(images/Meilin_outside\ -\ background.jpeg);
+			background: linear-gradient(rgb(72, 0, 72, 0.6), rgba(171, 3, 183, 0.5)), url(images/Meilin_outside\ -\ background.jpeg);
 		}
+
 		.e {
-			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.5)), url(images/fantasiapelit\ toy\ store\ outside.jpeg);
+			background: linear-gradient(rgb(72, 0, 72, 0.6), rgba(171, 3, 183, 0.5)), url(images/fantasiapelit\ toy\ store\ outside.jpeg);
 		}
+
 		.f {
-			background: linear-gradient(rgb(72,0,72,0.6), rgba(171, 3, 183, 0.5)), url(images/zhao_tea.png);
+			background: linear-gradient(rgb(72, 0, 72, 0.6), rgba(171, 3, 183, 0.5)), url(images/zhao_tea.png);
 		}
 
 		footer {
-			background-color: #333;
-			color: white;
-			padding: 20px;
+			background-color: #264653;
+			color: #ffbc0a;
+			font-size: 1.5rem;
+			padding: 1.5rem;
 			text-align: center;
 		}
 
@@ -111,8 +124,8 @@
 
 		/* Change the color of links on hover */
 		.topnav a:hover {
-			background-color: #ddd;
-			color: rgb(217, 121, 32);
+			background-color: purple;
+			color: yellow;
 		}
 
 		/* Add an active class to highlight the current page */
@@ -129,7 +142,10 @@
 		/* edit img size */
 		img,
 		video,
-		.b, .c, .d, .e, .f {
+		.b,
+		.c,
+		.d,
+		{
 			border-radius: 4px;
 			width: 800px;
 			height: auto;
@@ -147,6 +163,23 @@
 			align-items: center;
 			display: flex;
 			padding-top: 20%;
+		}
+
+		.click {
+			position: right;
+			background-color: #f1f1f1;
+			color: black;
+			font-size: 1rem;
+			padding: 0.5rem;
+			border: none;
+			cursor: pointer;
+			border-radius: 1px;
+			text-align: center;
+		}
+
+		.click:hover {
+			background-color: black;
+			color: yellow;
 		}
 
 		@media screen and (max-device-width: 600px) {
@@ -224,31 +257,30 @@
 			.b,
 			.c,
 			.d,
-			.e,
-			.f {
-				border-radius: 4px;
-				width: 100%;
-				height: auto;
-			}
+			{
+			border-radius: 4px;
+			width: 100%;
+			height: auto;
+		}
 
-			body {
-				font-size: 2.5rem;
-			}
+		body {
+			font-size: 2.5rem;
+		}
 
-			p.content {
-				text-align: left;
-				margin-top: 1rem;
-				margin-bottom: 1rem;
-				margin-right: 5%;
-				margin-left: 5%;
-			}
+		p.content {
+			text-align: left;
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+			margin-right: 5%;
+			margin-left: 5%;
+		}
 
-			/* format flex responsive restaurant page */
-			@media (max-width: 600px) {
+		/* format flex responsive restaurant page */
+		@media (max-width: 600px) {
 
-				.flex-item-right,
-				.flex-item-left {
-					flex: 100%;
-				}
+			.flex-item-right,
+			.flex-item-left {
+				flex: 100%;
 			}
+		}
 		}
