@@ -114,6 +114,7 @@
 			text-align: center;
 			border-radius: 0.5rem;
 			font-weight: 550;
+			font-size: 1rem;
 		}
 		/*button hover */
 		.details:hover {
@@ -286,3 +287,14 @@
 				}
 			}
 		}
+		/* button style responsive*/
+		@media screen and (max-device-width: 600px) {
+			.details {
+			float: center;
+			padding: 1rem;
+			text-align: center;
+			border-radius: 0.5rem;
+			font-weight: 550;
+			font-size: 1rem;
+		}
+	}
